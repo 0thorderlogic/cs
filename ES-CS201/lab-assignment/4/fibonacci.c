@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-/* Program to print fibonacci series till a user given limit */
-
 void main() {
     int first = 0, second = 1, third, i, limit;
 
