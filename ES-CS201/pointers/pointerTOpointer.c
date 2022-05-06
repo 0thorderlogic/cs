@@ -8,7 +8,6 @@ void main() {
 
     printf("Address -\n");
     printf("%d - *p",*p);
-    // printf("%d - **q",**q);
-    // printf("%d - ***r",***r);
-    printf("The value at *p is: ", *p);
+    printf("The value at *p is: ", &*p);
 }
+

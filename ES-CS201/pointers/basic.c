@@ -2,7 +2,7 @@
 
 void main() {
     int a, *p;
-    
+
     printf("Enter the value for a: ");
     scanf("%d", &a);
 
@@ -19,3 +19,4 @@ void main() {
     *p = 69;
     printf("Post-Dereferencing value of a: %d\n", a);
 }
+
