@@ -1,17 +1,19 @@
-#include <stdio.h>
-
-int main()
-{
-    int num, sum=0;
-
-    printf("Enter any number to find sum of its digit: ");
-    scanf("%d", &num);
-
-    while(num!=0)
-    {
-        sum += num % 10;
-        num = num / 10;
-    }
-
-    printf("Sum of digits = %d", sum);
-}
+#include<stdio.h>  
+int main()    
+{    
+int n,r,sum=0,temp;    
+printf("enter the number=");    
+scanf("%d",&n);    
+temp=n;    
+while(n>0)    
+{    
+r=n%10;    
+sum=sum+(r*r*r);    
+n=n/10;    
+}    
+if(temp==sum)    
+printf("armstrong  number ");    
+else    
+printf("not armstrong number");    
+return 0;  
+}   
