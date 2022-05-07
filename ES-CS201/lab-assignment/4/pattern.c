@@ -17,11 +17,8 @@ void main() {
 
     /* b */
 
-    int space, rows, k = 0;
+    int space, rows = 3, k = 0;
 
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
-    
     for (i = 1; i <= rows; ++i, k = 0) {
         for (space = 1; space <= rows - i; ++space) {
             printf("  ");
@@ -33,10 +30,27 @@ void main() {
         printf("\n");
     }
     
+    /* c */
+
+    int n = 3;
+    for(i=1;i<=n;i++)
+    {
+        for(j=i;j<n;j++)
+        {
+            printf(" ");
+            
+        }
+        for(k=1;k<=i;k++)
+        {
+            printf("*");
+        }
+        
+        printf("\n");
+    }
+
     /* d */
 
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
+    rows = 3;
     for (i = rows; i >= 1; --i) {
         for (space = 0; space < rows - i; ++space)
             printf("  ");
