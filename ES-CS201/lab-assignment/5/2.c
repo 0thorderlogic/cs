@@ -6,7 +6,7 @@ Write a program in C to take 5 integer values as input and display their average
 */
 
 void main() {
-    int i, count = 6, disp[6], sum = 0;
+    int i, count = 5, disp[6], sum = 0;
 
     for(i=0; i < 5; i++) {
         printf("Enter value for disp[%d]:", i);
@@ -18,5 +18,5 @@ void main() {
         sum = sum + disp[i];
 
     printf("Sum of all values: %d", sum);
-    printf("Average value: %f", ((float)(sum/5)));
+    printf("Average value: %d", (sum/5));
 }
