@@ -18,17 +18,13 @@ int main () {
     printf("Base address of arr from &arr: %p\n", &arr);
     printf("Base address of arr from pointer: %p\n", ptr_base_address);
     
-    printf("[*] Store the base value of an array in a pointer - Complete\n");
-
     for (int i = 0; i < 5; i++)
         printf("Value at arr[%d]: %d\n", i, *(ptr_base_address+i));     
 
-    printf("[*] Acess all the values via pointer arithmetic - Complete\n");
-
-    printf("Derefencing and incrementing all the values by 1\n");
+    printf("POST INCREMENT\n");
 
     for (int i = 0; i < 5; i++) {
-        *(ptr_base_address+i) = *(ptr_base_address) + 1;
+        *(ptr_base_address+i) += 1;
         printf("Value at arr[%d]: %d\n", i, *(ptr_base_address+i));     
     }
 
