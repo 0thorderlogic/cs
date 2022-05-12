@@ -1,1 +1,123 @@
 by aryan singh
+.
+├── auto.sh
+├── basic-algo
+│   ├── greedy-algo.c
+│   ├── pointerSupremacy.c
+│   ├── readme
+│   ├── scrabble.c
+│   └── test.c
+├── book
+│   ├── celsius-farh.c
+│   ├── fahr-celsius.c
+│   ├── hello-10-times.c
+│   ├── program.c
+│   ├── readme
+│   └── run.bash
+├── dsa
+│   └── fcc
+│       └── list.c
+├── ES-CS201
+│   ├── arrays
+│   │   ├── inputNumbersInArrya.c
+│   │   ├── linearSearch.c
+│   │   ├── matrix
+│   │   │   ├── multiplication.c
+│   │   │   └── sum.c
+│   │   └── reverse.c
+│   ├── generic
+│   │   ├── additionOfTwoNums.c
+│   │   ├── allEvenNumberInARange.c
+│   │   ├── averageOfFiveNums.c
+│   │   ├── checkArmstrong.c
+│   │   ├── checkFibonacci.c
+│   │   ├── checkNumberIsEvenOrOdd.c
+│   │   ├── checkNumberIsEvenOrOddMenuDriven.c
+│   │   ├── checkNumberIsPositiveOrNegative.c
+│   │   ├── checkNumberIsPositiveOrNegativeMenuDriven.c
+│   │   ├── checkNumberNature-oeORpn-menuDriven.c
+│   │   ├── checkPalindrome.c
+│   │   ├── divisionBetweenTwoNums.c
+│   │   ├── divisionBetweenTwoNums-typecasting.c
+│   │   ├── factorialOfAGivenNumber.c
+│   │   ├── highestInThreeNumbers.c
+│   │   ├── highestInThreeNumbers-TernaryOperator.c
+│   │   ├── menuDrivenProgramForMaths.c
+│   │   ├── printName.c
+│   │   ├── simpleInterest.c
+│   │   ├── sumOfAllDigits.c
+│   │   ├── sumOfNNaturalNumbers.c
+│   │   ├── swapTwoValuesWithoutThirdVar.c
+│   │   └── swapTwoValuesWithThirdVar.c
+│   ├── lab-assignment
+│   │   ├── 1
+│   │   │   ├── additionOfTwoNums.c
+│   │   │   ├── averageOfFiveNums.c
+│   │   │   ├── averageOfFiveNums copy.c
+│   │   │   ├── divisionBetweenTwoNums.c
+│   │   │   ├── printIntAfterInput.c
+│   │   │   ├── printName.c
+│   │   │   └── simpleInterest.c
+│   │   ├── 2
+│   │   │   ├── checkAgeBased.c
+│   │   │   ├── checkNumberIsEvenOrOdd.c
+│   │   │   ├── checkNumberIsPositiveOrNegative.c
+│   │   │   ├── checkWhichNumberIsGreatesInThree.c
+│   │   │   ├── leapYearOrNot.c
+│   │   │   ├── swapTwoValuesWithoutThirdVar.c
+│   │   │   └── swapTwoValuesWithThirdVar.c
+│   │   ├── 3
+│   │   │   ├── 1.c
+│   │   │   └── 2.c
+│   │   ├── 4
+│   │   │   ├── armstrong.c
+│   │   │   ├── calculate_A^B.c
+│   │   │   ├── factorial.c
+│   │   │   ├── fibonacci.c
+│   │   │   ├── numberOfDigits.c
+│   │   │   ├── palindrome.c
+│   │   │   ├── pattern.c
+│   │   │   ├── perfectNumber.c
+│   │   │   ├── primeNumber1-100.c
+│   │   │   ├── primeOrNot.c
+│   │   │   ├── printEvenNumbers.c
+│   │   │   ├── printPrimeNumbers.c
+│   │   │   ├── sumOfDigits.c
+│   │   │   └── sumOfNNaturalNumbers.c
+│   │   └── 5
+│   │       ├── 1.c
+│   │       ├── 2.c
+│   │       ├── 3.c
+│   │       ├── 4.c
+│   │       ├── 5.c
+│   │       ├── 6.c
+│   │       └── 7.c
+│   ├── pattern
+│   │   ├── 1.c
+│   │   ├── 2.c
+│   │   └── 3.c
+│   ├── pointers
+│   │   ├── arraysAndPointers.c
+│   │   ├── basic.c
+│   │   ├── callByRef.c
+│   │   ├── charater-arrays
+│   │   ├── dynamicMemAlloc.c
+│   │   ├── pointerArithmeticInArray.c
+│   │   └── pointerTOpointer.c
+│   ├── readme
+│   ├── string
+│   │   ├── char.c
+│   │   ├── displayYourName.c
+│   │   ├── frequency.c
+│   │   ├── lengthOfString.c
+│   │   ├── pallindrome.c
+│   │   ├── pallindromeWithoutSringHeader.c
+│   │   └── readme
+│   └── theory-assignment
+│       ├── day1.c
+│       ├── day2.c
+│       └── day3.c
+├── LICENSE
+└── readme
+
+19 directories, 100 files
