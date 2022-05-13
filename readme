@@ -30,6 +30,7 @@ by aryan singh
 │   │   ├── allEvenNumberInARange.c
 │   │   ├── averageOfFiveNums.c
 │   │   ├── checkArmstrong.c
+│   │   ├── checkChar.c
 │   │   ├── checkFibonacci.c
 │   │   ├── checkNumberIsEvenOrOdd.c
 │   │   ├── checkNumberIsEvenOrOddMenuDriven.c
@@ -42,13 +43,15 @@ by aryan singh
 │   │   ├── factorialOfAGivenNumber.c
 │   │   ├── highestInThreeNumbers.c
 │   │   ├── highestInThreeNumbers-TernaryOperator.c
+│   │   ├── lcm.c
 │   │   ├── menuDrivenProgramForMaths.c
 │   │   ├── printName.c
 │   │   ├── simpleInterest.c
 │   │   ├── sumOfAllDigits.c
 │   │   ├── sumOfNNaturalNumbers.c
 │   │   ├── swapTwoValuesWithoutThirdVar.c
-│   │   └── swapTwoValuesWithThirdVar.c
+│   │   ├── swapTwoValuesWithThirdVar.c
+│   │   └── ut2.md
 │   ├── lab-assignment
 │   │   ├── 1
 │   │   │   ├── additionOfTwoNums.c
@@ -101,6 +104,8 @@ by aryan singh
 │   │   ├── basic.c
 │   │   ├── callByRef.c
 │   │   ├── charater-arrays
+│   │   │   ├── basic2.c
+│   │   │   └── basic.c
 │   │   ├── dynamicMemAlloc.c
 │   │   ├── pointerArithmeticInArray.c
 │   │   └── pointerTOpointer.c
@@ -120,4 +125,4 @@ by aryan singh
 ├── LICENSE
 └── readme
 
-19 directories, 100 files
+19 directories, 105 files

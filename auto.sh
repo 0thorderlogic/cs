@@ -30,7 +30,7 @@ cat readme
 
 echo "Commiting and pushing everything."
 echo ----------------------------------------------------------
-
+git pull
 git add .
 git commit -m "programs"
 git push -u origin master
