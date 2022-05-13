@@ -1,7 +1,7 @@
 # Solutions for Unit test 2 suggestions 
 
 
-1. Write a program in C to find out the factorial of a user given number using recursive function.
+## 1. Write a program in C to find out the factorial of a user given number using recursive function.
 
 ```
 #include<stdio.h>
@@ -25,7 +25,7 @@ int multiplyNumbers(int n) {
 
 ```
 <br><br>
-2. Write a program in C to search a specific item from a given set of integer values.
+## 2. Write a program in C to search a specific item from a given set of integer values.
 
 ```
 #include <stdio.h>
@@ -56,7 +56,7 @@ int main() {
 }
 ```
 <br><br>
-3. Write a program in C to calculate LCM of a user given number using user defined function.
+## 3. Write a program in C to calculate LCM of a user given number using user defined function.
 
 ```
 #include <stdio.h>
@@ -80,7 +80,7 @@ int main() {
 }
 ```
 <br><br>
-4. Write a program in C to calculate number of Vowels, Number of
+## 4. Write a program in C to calculate number of Vowels, Number of
 Consonants, Number of Numeric values and Number of spaces present in a
 user given string.
 
@@ -88,11 +88,12 @@ user given string.
 code here
 ```
 <br><br>
-5. What is a pointer?
+## 5. What is a pointer?
 
 A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location. Like any variable or constant, you must declare a pointer before using it to store any variable address.
+
 <br><br>
-6. What are the different bitwise operators?
+## 6. What are the different bitwise operators?
 
 & - Bitwise AND
 		
@@ -100,7 +101,7 @@ A pointer is a variable whose value is the address of another variable, i.e., di
 		
 ^ - Bitwise XOR
 <br><br>
-7. Give examples of Unary, Binary and Ternary operators?
+## 7. Give examples of Unary, Binary and Ternary operators?
 
 Unary operators: The operators which work with only one operand are called unary operators. E.g. ++, - - etc are unary operators.
 
@@ -131,7 +132,7 @@ Ternary operators: The operators which work with three operands are called terna
     and b.  
 ```
 <br><br>
-8. What are different System software?
+## 8. What are different System software?
 
 1.Operating system: Harnesses communication between hardware, system programs, and other applications.
 
