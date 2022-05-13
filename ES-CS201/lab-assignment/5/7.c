@@ -6,23 +6,31 @@ Write a program in C to check whether a user given number is Palindrome or Not.
 */
 
 int main() {
-  int n, reversed = 0, remainder, original;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
-    original = n;
-
-    // reversed integer is stored in reversed variable
-    while (n != 0) {
-        remainder = n % 10;
-        reversed = reversed * 10 + remainder;
-        n /= 10;
-    }
-
-    // palindrome if orignal and reversed are equal
-    if (original == reversed)
-        printf("%d is a palindrome.", original);
-    else
-        printf("%d is not a palindrome.", original);
-
-    return 0;
-}
+	int  k = 0, len= 0, rem, i, n, flag, arr[10], j;
+	
+	printf("Enter a number: ");
+	scanf("%d", &n);
+	
+	int newlen= sizeof(a)/sizeof(a[0]);
+	
+	while (n!=0) {
+		rem = n%10;
+		arr[k++] = rem;
+		n /= 10;
+		len++;
+	}
+	
+	for ( i = 0, j = len-1; i<j ; i++, j--) {
+		if(arr[i] != arr[j]) {
+			flag = 1;
+		}
+		break;
+	}
+	
+	if (flag==0) {
+		printf("YES!\n");
+	}
+	else {
+		printf("NO\n");
+	}
+} 
