@@ -20,8 +20,6 @@ echo ----------------------------------------------------------
 
 find . -name \*a.out -type f -delete
 
-tree
-
 echo "Now adding the new tree in the file readme"
 
 tree >> readme
