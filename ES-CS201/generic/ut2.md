@@ -61,12 +61,9 @@ int main() {
 ```
 #include <stdio.h>
 
-int main() {
-    int n1, n2, max;
-    printf("Enter two positive integers: ");
-    scanf("%d %d", &n1, &n2);
-
+void fnc(int n1, int n2) {
     // maximum number between n1 and n2 is stored in max
+    int max;
     max = (n1 > n2) ? n1 : n2;
 
     for(;;) {
@@ -76,16 +73,61 @@ int main() {
         }
         ++max;
     }
+}
+
+int main() {
+    int n1, n2, max;
+    printf("Enter two positive integers: ");
+    scanf("%d %d", &n1, &n2);
+
+    fnc(n1, n2);
+
     return 0;
 }
 ```
 <br><br>
-## 4. Write a program in C to calculate number of Vowels, Number of
-Consonants, Number of Numeric values and Number of spaces present in a
-user given string.
+## 4. Write a program in C to calculate number of Vowels, Number of Consonants, Number of Numeric values and Number of spaces present in a user given string.
 
 ```
-code here
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char str[100];
+    int len, v, c, d, spacebar, i;
+    
+    v = c = d = spacebar = 0;
+    
+    printf("Enter a string: ");
+    fgets(str, 100, stdin);
+    
+    len = strlen(str);
+    --len; // remove the \n char in the end
+    printf("Length: %d\n", len);
+
+
+    for (i = 0; str[i] != '\0'; i++) { 
+        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' ||str[i] == 'E' ||str[i] == 'I' || str[i] == 'O' || str[i] == 'U') {
+            v++;
+        }
+    }
+
+    for (i = 0;  str[i] != '\0'; i++) {
+        if (str[i] == '0' || str[i] == '1' ||  str[i] == '2' ||  str[i] == '3' ||  str[i] == '4' || str[i] == '5' || str[i] == '6' ||  str[i] == '7' ||  str[i] == '8' || str[i] == '9'){
+            d++;
+        }
+    }
+
+    for (i = 0;  str[i] != '\0'; i++) {
+       if (str[i] == ' ') {
+           spacebar++;
+       }
+    }
+    
+    c = (len - (v + d + spacebar));
+
+    printf("Vowels: %d\nConsonent: %d\nDigits: %d\n", v, c, d);
+}
 ```
 <br><br>
 ## 5. What is a pointer?
