@@ -11,9 +11,9 @@ by aryan singh
 │   ├── celsius-farh.c
 │   ├── fahr-celsius.c
 │   ├── hello-10-times.c
+│   ├── new.c
 │   ├── program.c
-│   ├── readme
-│   └── run.bash
+│   └── readme
 ├── dsa
 │   └── fcc
 │       └── list.c

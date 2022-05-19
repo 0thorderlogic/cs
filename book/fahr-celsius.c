@@ -13,10 +13,11 @@ void main() {
     {
         celsius = (5.0/9.0) * (fahr-32.0);
         
-        printf("%3.0f \t %6.3f\n", fahr, celsius);
+        printf("%3.0f \t %6.4f\n", fahr, celsius);
         
-        // 3.0, 6.3 is the defined width of the output
-
+        // 3, 6 is the defined width of the output
+        // number after the decimanl is the number of decimal points to print after that
+        
         fahr = fahr + step;
     }
     

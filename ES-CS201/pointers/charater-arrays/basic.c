@@ -11,22 +11,14 @@ int boobTOaooa () {
 }
 
 int print(char *c) {
-
-/* 
- NOTE the compiler will force char *c even if you pass the array as argument;
- since arrays can be huge in size it is ineffective to copy the whole thing again and again
-*/
-
-    while (*c = '\0')
-    {
-        printf("%c",*c);
+    while (*c = '\0') {
+        printf("%c",*c); 
         c++;
     }
-    
 }
 
-int main (int argc, char *argv[]) {
+int main () {
     boobTOaooa();
-    char c[19] = "Hey! Harshil";
-    print(c);
+    char c[] = "JHON HANCOCK";
+    printf("%s", c); 
 }
