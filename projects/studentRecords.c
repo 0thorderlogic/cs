@@ -7,11 +7,13 @@ struct student {
     int grade;
     char section[1];
     int just;
-}stud;
+};
 
 void main() {
 
     printf("Enter the infomation of a student!\n");
+
+    struct student stud;
 
     // Name
     printf("Enter a name: ");
