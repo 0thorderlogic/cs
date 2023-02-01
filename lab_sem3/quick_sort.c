@@ -57,10 +57,10 @@ void quickSort(int A[], int low, int high)
 
 int main()
 {
-    int A[] = {9, 4, 4, 8, 7, 5, 6};
+    int A[] = {78, 432, 278, 35};
 
-    int n = 9;
-    n =7;
+    int n = 4;
+	
     printArray(A, n);
     quickSort(A, 0, n - 1);
     printArray(A, n);
