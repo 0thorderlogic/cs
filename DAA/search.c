@@ -1,6 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Binary and linear search on a dynamic array
+
+int binary_search(int *ptr, int max, int item) {
+    /* 
+        binary_search function takes the pointer PTR to the first 
+        item in the array, size of the array, and the ITEM to be searched.
+        Returns the position of the element of -1 if not found.
+    */
+    
+	int position_of_item = -1 , i, left = 0, right = max-1, mid;
+	
+	 while (left <= right) {
+	 	mid = left + right / 2;
+	 	
+	 	if (item == ptr[mid]) {
+ 			position_of_item = mid;
+ 			break;
+ 		}
+ 		else if(item < ptr[mid]) 
+ 			right = mid - 1;
+ 		
+ 		else 
+ 			left = mid + 1;	 		
+	 }
+     
+ 	return position_of_item;
+}
+
 int linear_search(int *ptr, int max, int item) {
     /* 
         linear_search function takes the pointer PTR to the first 
@@ -25,7 +53,7 @@ int linear_search(int *ptr, int max, int item) {
 }
 
 void main() {
-    int item, i, max, *ptr, linear_return_value;
+    int item, i, max, *ptr, linear_return_value, binary_return_value;
     
     // max stores the numbers of elements to be stored in the array.
     
@@ -40,7 +68,7 @@ void main() {
     }
     else {
         printf("Memory allocation sucessfull.\n");
-        printf("Enter the elements to be stored.\n");
+        printf("Enter the elements to be stored in an ascending form.\n");
         
         for (i = 0; i < max; ++i) {
             printf("Enter element number[%d]: ", i);
@@ -55,10 +83,23 @@ void main() {
     printf("Enter element to be searched: ");
     scanf("%d", &item);
     
-    // calling the linear search function
-    linear_return_value = linear_search(ptr, max, item);
+	// calling the linear search function
+	linear_return_value = linear_search(ptr, max, item);
+	
+	printf("LINEAR SEARCH\n");
 	
 	if (linear_return_value >= 0) 
+		printf("Element found at: %d\n", linear_return_value);
+	else 
+		printf("Element not found\n");
+
+
+	// calling the binary search function
+	binary_return_value = binary_search(ptr, max, item);
+
+	printf("BINARY SEARCH\n");
+
+	if (binary_return_value >= 0) 
 		printf("Element found at: %d\n", linear_return_value);
 	else 
 		printf("Element not found\n");
