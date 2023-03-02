@@ -53,3 +53,4 @@ dkms.conf
 
 # I use and ide sometimes, sue me.
 .idea 
+.vscode
