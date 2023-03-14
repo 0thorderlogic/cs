@@ -77,7 +77,7 @@ int main() {
         exit(0);
     }
     else {
-        printf("Memory allocation sucessfull.\n");
+        printf("Memory allocation sucessful.\n");
         printf("Enter the elements:\n");
         
         for (i = 0; i < max; ++i) {

@@ -77,7 +77,7 @@ int main() {
         exit(0);
     }
     else {
-        printf("Memory allocation sucessfull.\n");
+        printf("Memory allocation sucessful.\n");
         printf("Enter the elements:\n");
         
         for (i = 0; i < max; ++i) {
@@ -97,6 +97,7 @@ int main() {
 	{
 		merge_sort(ptr, 0, max - 1);
 	}
+	end_t = clock();
 	total = (double)(end_t - start_t);
 	
 	//	printf("Time taken by your desired function is: %f\n", total);
