@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 // Binary and linear search on a dynamic array
 
@@ -9,7 +10,7 @@ int binary_search(int *ptr, int left, int right, int item) {
         item in the array, size of the array, and the ITEM to be searched.
         Returns the position of the element of -1 if not found.
     */
-    
+
 	int i, mid;
 
 	if (right >= left) {
@@ -52,7 +53,9 @@ int linear_search(int *ptr, int max, int item) {
 
 void main() {
     int item, i, max, *ptr, return_value, choice;
-    
+	int start_t, end_t;    
+	double total;
+
     // max stores the numbers of elements to be stored in the array.
     
     printf("Enter number of elements you wish to store: ");
@@ -89,26 +92,40 @@ void main() {
 	{
 	case 1:
 		// calling the linear search function
-		return_value = linear_search(ptr, max, item);
-		
-		if (return_value >= 0) 
-			printf("Element found at: %d\n", return_value);
-		else 
-			printf("Element not found\n");
+		start_t = clock();
+		{
+			return_value = linear_search(ptr, max, item);
+			
+			if (return_value >= 0) 
+				printf("Element found at: %d\n", return_value);
+			else 
+				printf("Element not found\n");
+			
+		}
+		end_t = clock();
+
+		total = (double)(end_t - start_t);
 		break;
-	
 	case 2: 
 		// calling the binary search function
-		return_value = binary_search(ptr, 0, max-1, item);
+		start_t = clock();
+		{
+			return_value = binary_search(ptr, 0, max-1, item);
 
-		if (return_value >= 0) 
-			printf("Element found at: %d\n", return_value);
-		else 
-			printf("Element not found\n");
+			if (return_value >= 0) 
+				printf("Element found at: %d\n", return_value);
+			else 
+				printf("Element not found\n");
+		}	
+		end_t = clock();
+
+		total = (double)(end_t - start_t);
 		break;
 
 	default:
 		goto choice;
 		break;
 	}
+
+	printf("Time taken by your desired function is: %f\n", total);
 }
