@@ -2,6 +2,6 @@
 
 Labs in the 4th Semester are DAA [Design and Analysis of Algorithms] and CA [Computer Architecture]
 
-find DAA related things in the <a href="https://github.com/0thorderlogic/cs/tree/master/DAA">DAA</a> Folder
+<a href="https://github.com/0thorderlogic/cs/tree/master/DAA">find things related to Design and analysis of Algorithms</a>
 
-I will look into the CA part. ugh.
+[find things related to Computer Architecture](https://github.com/0thorderlogic/cs/tree/master/computer_architecture)
