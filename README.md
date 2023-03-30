@@ -20,4 +20,4 @@ Not that interesting mostly BS.
 
 ## First Sem
 
-Nothing happended.
+Nothing happened.
