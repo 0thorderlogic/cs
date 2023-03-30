@@ -10,11 +10,11 @@ module fulladder(
     output s,
     inout cout
     );
-	 xor(f,a,b);
-	 xor(s,f,c);
-	 and(m,f,c);
-	 and(n,a,b);
-	 or(cout,m,n);
+	xor(f,a,b);
+	xor(s,f,c);
+	and(m,f,c);
+	and(n,a,b);
+	or(cout,m,n);
 
 endmodule
 
