@@ -16,7 +16,7 @@ Not that interesting mostly BS.
 
 ## Second Sem
 
-[Find a release tagges `kewl`](https://github.com/0thorderlogic/cs/releases/tag/kewl)
+[Find a release tagged `kewl`](https://github.com/0thorderlogic/cs/releases/tag/kewl)
 
 ## First Sem
 
