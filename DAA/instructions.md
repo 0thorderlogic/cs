@@ -1,7 +1,5 @@
 # Instructions
 
-[Go back home](/README.md)
-
 ## Libre office way
 
 This year 2023 you can submit the assignments as a printout form.
