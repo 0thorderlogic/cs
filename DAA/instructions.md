@@ -1,5 +1,23 @@
 # Instructions
 
+You could do this in a number of ways. I recommend the [command line way](#command-line-way-aka-chad-way) or the [online](#online) way for noobs (no shame in being a noob).
+
+## Command line way a.k.a _Chad way_
+
+Pre-requisite: Have [git](https://git-scm.com/downloads) installed on your computer as well as [soffice](https://www.systutorials.com/docs/linux/man/1-soffice/), both come pre-installed in most "just works" Linux distros (another reason for using Linux).
+
+* Change the font if you can after cloning [the repository](https://github.com/0thorderlogic/cs), helps a lot.
+
+```
+git clone https://github.com/0thorderlogic/cs.git
+
+echo "Aryan is the best!"
+
+cd cs/DAA/docs
+
+soffice --convert-to pdf *.odt  
+```
+
 ## Libre office way
 
 This year 2023 you can submit the assignments as a printout form.
@@ -25,10 +43,10 @@ You are done!
 
 Alternatively, you can visit [this here website](https://online2pdf.com/convert-odt-to-pdf) and upload all files as you need and get a merged pdf!
 
-> Note: try disabling the ad-blocker if you want to support this website or [donate](https://online2pdf.com/donation) them outright. 
+* Note: try disabling the ad-blocker if you want to support this website or [donate](https://online2pdf.com/donation) them outright. 
 
 ## Last resort
 
-> Only for batches after 2021-2022
+*  Only for batches after 2021-2022
 
-There is a good chance you will get the same questions we got this year 10 years down the line, you could find a file called the [`master.odt`](#) or [`master.pdf`](#) when I do get around to it middle of 2023. 
+There is a good chance you will get the same questions we got this year 10 years down the line, you could find a file called the [`master.odt`](#) or [`master.pdf`](#) when I do get around to it the middle of 2023. 
