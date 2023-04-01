@@ -1,15 +1,17 @@
 # Instructions
 
+[Go back home](/README.md)
+
 ## Libre office way
 
 This year 2023 you can submit the assignments as a printout form.
 Now, this may change, at any given time. 
 
-Now you will find a [`docs`](https://github.com/0thorderlogic/cs/tree/master/DAA/docs) folder with files named 01.odt, 02.odt, ...... 0N.odt also another file called [daa_assignment.ott](https://github.com/0thorderlogic/cs/blob/master/DAA/docs/daa_assignment.ott) an OTT file is a document template. This is the template I followed and you could too.
+Now you will find a [`docs`](https://github.com/0thorderlogic/cs/tree/master/DAA/docs) folder with files named `01.odt`, `02.odt`, ...... `0N.odt` also another file called [`daa_assignment.ott`](https://github.com/0thorderlogic/cs/blob/master/DAA/docs/daa_assignment.ott) an OTT file is a document template. This is the template I followed and you could too.
 
-I am using [Libre office](https://www.libreoffice.org/) on [fedora linux](https://getfedora.org/) because I am cool like that. You could install libre office on windows too if you want.
+I am using [Libre office](https://www.libreoffice.org/) on [Fedora linux](https://getfedora.org/) because I am cool like that. You could install libre office on windows too if you want.
 
-After you have Libre office and the necessary files (01.odt, 02.odt, ...... 0N.odt) from the [`docs`](https://github.com/0thorderlogic/cs/tree/master/DAA/docs) folder open these up in [Libre office writer](https://www.libreoffice.org/discover/writer/) do this:
+After you have Libre office and the necessary files (`01.odt`, `02.odt`, ...... `0N.odt`) from the [`docs`](https://github.com/0thorderlogic/cs/tree/master/DAA/docs) folder open these up in [Libre office writer](https://www.libreoffice.org/discover/writer/) do this:
 
 ```
 STEP 1: OPEN FILE using LIBRE OFFICE WRITER
@@ -31,4 +33,4 @@ Alternatively, you can visit [this here website](https://online2pdf.com/convert-
 
 > Only for batches after 2021-2022
 
-There is a good chance you will get the same questions we got this year 10 years down the line, you could find a file called the [master.odt](#) or [master.pdf](#) when I do get around to it middle of 2023. 
+There is a good chance you will get the same questions we got this year 10 years down the line, you could find a file called the [`master.odt`](#) or [`master.pdf`](#) when I do get around to it middle of 2023. 
