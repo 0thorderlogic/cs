@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   15:16:06 04/06/2023
-// Design Name:   orusingnand
-// Module Name:   C:/users/orusingnand/orusingnand_tb.v
-// Project Name:  orusingnand
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: orusingnand
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module orusingnand_tb;
 
 	// Inputs
