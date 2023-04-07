@@ -18,7 +18,6 @@ module fs_tb;
 	wire n;
 	wire m;
 
-	// Instantiate the Unit Under Test (UUT)
 	fs uut (
 		.a(a), 
 		.b(b), 
@@ -33,7 +32,6 @@ module fs_tb;
 	);
 
 	initial begin
-		// Initialize Inputs
 		a = 0;
 		b = 0;
 		c = 0;

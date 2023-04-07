@@ -15,7 +15,6 @@ module dm_tb;
 	wire notb;
 	wire d;
 
-	// Instantiate the Unit Under Test (UUT)
 	dm uut (
 		.a(a), 
 		.b(b), 
@@ -27,32 +26,26 @@ module dm_tb;
 	);
 
 	initial begin
-		// Initialize Inputs
 		a = 0;
 		b = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
 		a = 0;
 		b = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
 		a = 1;
 		b = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
 		a = 1;
 		b = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 
-		// Add stimulus here
 
 	end
       

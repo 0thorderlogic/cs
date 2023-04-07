@@ -16,7 +16,6 @@ module fulladder_tb;
 	wire n;
 	wire cout;
 
-	// Instantiate the Unit Under Test (UUT)
 	fulladder uut (
 		.a(a), 
 		.b(b), 

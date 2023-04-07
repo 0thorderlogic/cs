@@ -13,7 +13,6 @@ module halfsubtractor_tb;
 	// Bidirs
 	wire c;
 
-	// Instantiate the Unit Under Test (UUT)
 	halfsubtractor uut (
 		.a(a), 
 		.b(b), 
@@ -23,35 +22,26 @@ module halfsubtractor_tb;
 	);
 
 	initial begin
-		// Initialize Inputs
 		a = 0;
 		b = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
        
-		 		// Initialize Inputs
-		a = 0;
+		 		a = 0;
 		b = 1;
-		// Wait 100 ns for global reset to finish
 
 		#100;
 		
-				// Initialize Inputs
-		a = 1;
+				a = 1;
 		b = 0;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		
-				// Initialize Inputs
-		a = 1;
+				a = 1;
 		b = 1;
 
-		// Wait 100 ns for global reset to finish
 		#100;
 		 
-		// Add stimulus here
 
 	end
 	initial 

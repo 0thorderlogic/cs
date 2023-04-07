@@ -13,7 +13,6 @@ module orusingnand_tb;
 	wire nota;
 	wire notb;
 
-	// Instantiate the Unit Under Test (UUT)
 	orusingnand uut (
 		.a(a), 
 		.b(b), 
