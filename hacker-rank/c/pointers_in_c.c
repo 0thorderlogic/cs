@@ -1,12 +1,8 @@
 #include <stdio.h>
 
 void update(int *a,int *b) {
-    int temp = 0, *ptemp = &temp;
-    
-	*ptemp = *a;
-
     *a = *a + *b;
-    *b = *ptemp - *b;
+    *b = *a - *b - *b;
 
 	if (*b <= 1) 
 		*b *= -1;
